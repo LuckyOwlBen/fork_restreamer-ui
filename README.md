@@ -29,4 +29,4 @@ $ npm run i18n-compile
 ## License
 See the [LICENSE](./LICENSE) file for licensing information.
 
-docker build --no-cache --build-arg FFMPEG_IMAGE=datarhei/base:alpine-ffmpeg-latest --build-arg CORE_IMAGE=datarhei/base:alpine-core-latest --build-arg RESTREAMER_UI_IMAGE=myrsui -t myrestreamer:latest .
+docker build --no-cache --build-arg FFMPEG_IMAGE=datarhei/base:alpine-ffmpeg-latest --build-arg CORE_IMAGE=datarhei/core:latest --build-arg RESTREAMER_UI_IMAGE=myrsui -t myrestreamer:latest .
